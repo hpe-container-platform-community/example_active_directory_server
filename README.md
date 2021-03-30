@@ -6,7 +6,7 @@ You will need this when configuring the HPE Ezmeral Container Platform UI.
 System Settings -> User Authentication
    -> Authentication Type: Active Directory
    -> Security Protocol: LDAPS
-   -> Service Location: ${ad_server_private_ip} | Port: 636
+   -> Service Location: ${ad_server_ip} | Port: 636
    -> Bind Type: Search Bind
    -> User Attribute: sAMAccountName
    -> Base DN: CN=Users,DC=samdom,DC=example,DC=com
